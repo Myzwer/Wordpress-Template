@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <workItem from="1580878469154" duration="6045000" />
       <workItem from="1581052090799" duration="32406000" />
       <workItem from="1581967324921" duration="7207000" />
-      <workItem from="1585462613948" duration="15145000" />
+      <workItem from="1585462613948" duration="15520000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,20 @@
+/**
+ * Header
+ * =================================
+ * The hope is to use this and edit as necessary because editing headers suck.
+ *
+ *
+ */
+
+
+//*********************************************
+//***************** HEADER ********************
+//*********************************************
+
 .topnav {
   overflow: hidden;
   background-color: black;
+
   // To remove sticky feature delete the code after this point
   position: fixed;
   width: 100%;
@@ -23,9 +37,12 @@
 }
 
 
-//all the mobile fixes are right here
+//*********************************************
+//************** MOBILE FIXES *****************
+//*********************************************
 @media screen and (max-width: 830px) {
 
+  // not going to lie, named this, forgot about it, and now i'm keeping it.
   .pushypushy {
     float: none;
   }
@@ -35,13 +52,14 @@
   }
 
 }
-//end mobile fixes
 
 @media screen and (max-width: 830px) {
   .dropdown .dropbtn, .topnav .pushypushy a {
     display: none;
   }
 }
+//end mobile fixes
+
 
 .topnav .logo {
   float: left;
@@ -53,7 +71,6 @@
 }
 
 .active {
-  background-color: #4CAF50;
   color: white;
 }
 
@@ -83,7 +100,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -97,7 +114,7 @@
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  color: rgba(255,255,255,.7);
+  color: rgba(255, 255, 255, .7);
 }
 
 .dropdown-content a:hover {
@@ -108,6 +125,10 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+//*********************************************
+//**** MOBILE FIXES 2: ELECTRIC BOOGALOO ******
+//*********************************************
 
 @media screen and (max-width: 830px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -122,7 +143,9 @@
 }
 
 @media screen and (max-width: 830px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: absolute; // if you want page content to move down with dropdown, set this to relative.
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -133,16 +156,18 @@
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: absolute; // if you want page content to move down with dropdown, set this to relative.
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
 }
-
-
 
 @media screen and (max-width: 39.9375em) {
   .topnav a {
@@ -161,9 +186,9 @@
     margin-top: 10px;
   }
 
-.responsive .pushypushy ul li:first-of-type {
-  margin-top: 80px;
-}
+  .responsive .pushypushy ul li:first-of-type {
+    margin-top: 80px;
+  }
 
   .menu {
     display: block;

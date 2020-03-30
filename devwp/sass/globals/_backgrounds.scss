@@ -64,6 +64,9 @@ video {
 //*********************************************
 //************ COLOR BACKGROUNDS **************
 //*********************************************
+body {
+  background-color: $background;
+}
 
 .main-background {
   background-color: $background;

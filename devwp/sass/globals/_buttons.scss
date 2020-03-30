@@ -1,11 +1,25 @@
-// Basic Button Style
+/**
+ * Buttons
+ * =================================
+ * - General Button Styles
+ * - Button Style 1
+ * - Button Style 2
+ *
+ *
+ *
+ *
+ */
+
+//*********************************************
+//*********** BASIC BUTTON STYLE **************
+//*********************************************
 .btn {
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
-  border: 2px solid purple;
+  border: 2px solid #02B3FF;                // change this color
+  color: #02B3FF;                           // change this color
   border-radius: 0.6em;
-  color: purple;
   cursor: pointer;
   display: flex;
   align-self: center;
@@ -26,13 +40,17 @@
 }
 
 
-// BUTTON 1
+//*********************************************
+//************* BUTTON STYLE 1 ****************
+//*********************************************
 .btn-v1 {
-  // background: $yellow;
-  border-color: pink;
-  color: #fff;
+  //background: ;
+  border-color: #02B3FF;                  // change this color
+  color: #fff;                            // change this color
   background: {
-    image: linear-gradient(45deg, pink 50%, transparent 50%);
+    image:
+    linear-gradient(45deg, #02B3FF 50%,   // change this color
+    transparent 50%);
     position: 100%;
     size: 400%;
   }
@@ -43,12 +61,14 @@
   }
 }
 
-//BUTTON 2
+//*********************************************
+//************* BUTTON STYLE 2 ****************
+//*********************************************
 .btn-v2 {
-  border-color: pink;
+  border-color: #02B3FF;                 // change this color
+  color: #02B3FF;                        // change this color
   // border: 0;
   border-radius: 0;
-  color: pink;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -63,13 +83,14 @@
     transform: translateX(-50%);
     width: 0;
     height: 100%;
-    background: pink;
+    background: #02B3FF;               // change this color
     z-index: -1;
-    transition: width 150ms ease-in-out;
+    transition:
+            width 150ms ease-in-out;
   }
 
   &:hover {
-    color: #fff;
+    color: #fff;                      // change this color
 
     &:after {
       width: 110%;

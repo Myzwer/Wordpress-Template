@@ -16,15 +16,12 @@ get_header(); ?>
     <video src="https://foothillscollective.com/wp-content/uploads/2020/02/Revival-Here-Background.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <h1 class = "neon">
-            What happened
-            <span>That Night</span>
-            <div class = "featured-watch">Watch the exclusive video</div>
-            <div class = "center">
-                <a class="b-slogan__button-play" href="https://www.youtube.com/watch?v=B7HOImrXJDg"></a>
-            </div>
-        </h1>
+        <div>
+            <h1 class = "main-header">What happened That Night</h1>
+            <h1 class = "main-header"> Watch the exclusive video</h1>
+        </div>
     </div>
+
 
 
 <div class="full-width main-background">

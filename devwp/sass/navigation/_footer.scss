@@ -15,9 +15,9 @@
   width: 100%;
   position: relative;
   height: auto;
-  background-color: $background;
+  background-color: $primary;
   font-family: $main-font;
-  color: $primary;
+  color: $background;
   text-transform: uppercase;
 
 }
@@ -117,7 +117,7 @@
 }
 
 .footer .contain a {
-  color: $primary;
+  color: $background;
 }
 
 .footer .menu li {

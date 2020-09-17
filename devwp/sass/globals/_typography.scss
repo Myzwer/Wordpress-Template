@@ -34,16 +34,19 @@ body {
 //*********************************************
 h1, h2, h3 {
   font-family: $head-font;
-  color: $background;
+  color: $primary;
+  font-weight: 800;
 }
 
 h1 {
   text-transform: uppercase;
   font-size: $xlarge;
+  color: $background;
 }
 
 h2 {
   font-size: $large;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -63,7 +66,38 @@ h4 {
   color: $primary;
 }
 
+//Mobile Styles
+@media screen and (max-width: 39.9375em) {
+  .mobile-heading-small {
+    font-size: $medium;
+  }
+}
 
+
+//*********************************************
+//*************** FONT SIZES ******************
+//*********************************************
+.small-font {
+  font-size: $small;
+}
+
+.medium-font {
+  font-size: $medium;
+}
+
+.large-font {
+  font-size: $large;
+}
+
+.xlarge-font {
+  font-size: $xlarge;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .medium-font-mobile {
+    font-size: $medium;
+  }
+}
 
 //*********************************************
 //*************** PARAGRAPHS ******************
@@ -76,8 +110,51 @@ p {
   line-height: 1.6;
 }
 
+.featured-paragraph {
+  font-size: 1.2em;
+}
 
+.text-invert {
+  color: $background;
+}
 
+.text-color {
+  color: $primary;
+}
+
+//this helps keep the buttons in place by locking the min height of the text
+@media screen and (min-width: 40em) {
+  .height-lock {
+    height: 100px;
+  }
+}
+
+.no-spacing {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+//*********************************************
+//****************** LINKS *******************
+//*********************************************
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
 
 
 //*********************************************
@@ -95,6 +172,10 @@ p {
   font-weight: 800;
 }
 
+.italics {
+  font-style: italic;
+}
+
 
 
 //*********************************************
@@ -107,6 +188,10 @@ p {
 .center {
   text-align: center;
   margin: 0 auto;
+}
+
+.soft-center {
+  text-align: center;
 }
 
 .right {

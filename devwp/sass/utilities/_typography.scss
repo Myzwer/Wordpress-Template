@@ -7,7 +7,7 @@
  * - Text Transformations
  * - Text Placements
  *
- * Body font size, leadings etc have been set in _variables.scss
+ * Body font size, headings etc have been set in /variables
  *
  *
  */
@@ -36,6 +36,8 @@ h1, h2, h3 {
   font-family: $head-font;
   color: $primary;
   font-weight: 800;
+  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -58,20 +60,17 @@ h4 {
   font-family: $main-font;
   font-size: $small;
   text-transform: uppercase;
-  color: $background;
+  color: $primary;
   font-weight: 800;
 }
 
-.main-header {
+h5 {
+  font-family: $main-font;
+  font-size: $small;
   color: $primary;
+  font-weight: 800;
 }
 
-//Mobile Styles
-@media screen and (max-width: 39.9375em) {
-  .mobile-heading-small {
-    font-size: $medium;
-  }
-}
 
 
 //*********************************************
@@ -99,6 +98,7 @@ h4 {
   }
 }
 
+
 //*********************************************
 //*************** PARAGRAPHS ******************
 //*********************************************
@@ -108,52 +108,33 @@ p {
   color: black;
   padding: 20px;
   line-height: 1.6;
+  padding-bottom: 0;
 }
 
 .featured-paragraph {
   font-size: 1.2em;
 }
 
-.text-invert {
-  color: $background;
-}
 
-.text-color {
-  color: $primary;
-}
-
-//this helps keep the buttons in place by locking the min height of the text
-@media screen and (min-width: 40em) {
-  .height-lock {
-    height: 100px;
-  }
-}
-
-.no-spacing {
-  p {
-    margin: 0;
-    padding: 0;
-  }
-}
 
 //*********************************************
 //****************** LINKS *******************
 //*********************************************
 
 a {
-  color: black;
+  color: $primary;
 }
 
 a:hover {
-  color: black;
+  color: $primary;
 }
 
 a:active {
-  color: black;
+  color: $primary;
 }
 
 a:visited {
-  color: black;
+  color: $primary;
 }
 
 
@@ -178,22 +159,3 @@ a:visited {
 
 
 
-//*********************************************
-//************* TEXT PLACEMENTS ***************
-//*********************************************
-.left {
-  text-align: left;
-}
-
-.center {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.soft-center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}

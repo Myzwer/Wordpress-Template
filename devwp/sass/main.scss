@@ -19,53 +19,42 @@
 //*********************************************
 
 
-@import 'globals/variables.scss';
+@import 'variables/colors.scss';
+@import 'variables/fonts.scss';
+@import 'variables/sizes.scss';
 
 
 //*********************************************
-//**************** BUTTONS ********************
+//**************** UTILITIES ******************
 //*********************************************
 
 
-@import 'globals/buttons.scss';
+@import 'utilities/typography';
+@import 'utilities/spacing';
+@import 'utilities/alignment';
+@import 'utilities/utility-classes';
+@import 'utilities/visibility';
 
 
 //*********************************************
-//***************** HEADER ********************
+//*************** COMPONENTS ******************
 //*********************************************
 
 
-@import 'navigation/header';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/backgrounds';
 
 
-//*********************************************
-//***************** FOOTER ********************
-//*********************************************
 
 
-@import 'navigation/footer';
 
 
-//*********************************************
-//*************** OVERRIDES *******************
-//*********************************************
 
 
-@import 'grid/overrides';
 
 
-//*********************************************
-//************** BACKGROUNDS ******************
-//*********************************************
 
 
-@import 'globals/backgrounds';
-
-
-//*********************************************
-//*************** TYPOGRAPHY ******************
-//*********************************************
-
-
-@import 'globals/typography';
 

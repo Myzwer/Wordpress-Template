@@ -2,120 +2,180 @@
 /**
  * Template Name: Front Page
  *
- * The Frontpage of the Yestau Theme
+ * The Frontpage of the Josh Theme
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Josh Theme Best Theme
  * @since 1.0.0
  */
 
 get_header(); ?>
 
-    <video src="https://foothillscollective.com/wp-content/uploads/2020/02/Revival-Here-Background.mp4" autoplay loop playsinline muted></video>
-
-    <div class="viewport-header">
-        <div>
-            <h1 class = "main-header">What happened That Night</h1>
-            <h1 class = "main-header"> Watch the exclusive video</h1>
-        </div>
-    </div>
-
-
-
-<div class="full-width main-background">
-    <div class = "grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-                <h1>Welcome to 6!</h1>
-
-                <button class="btn btn-v2">Button 5</button>
-                <div class="callout">
-                    <h3>We're stoked you want to try Foundation! <i class="fas fa-address-book"></i></h3>
-                    <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-                    <p>Once you've exhausted the fun in this document, you should check out:</p>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-                        </div>
-                    </div>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 medium-push-2 cell">
-                            <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-                        </div>
-                        <div class="large-4 medium-4 medium-pull-2 cell">
-                            <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-                        </div>
-                    </div>
+    <!--Video is from RoyaltyFreeTube on Youtube, can be found here: https://www.youtube.com/watch?v=pvomDfQmhWQ
+    We did not create this video, no changes were made to the original work. -->
+    <video src="http://unfantasticgamers.local/wp-content/uploads/2020/11/UFG-BG.mp4" autoplay loop playsinline muted></video>
+    <header class="viewport-header">
+        <div class = "fullpage-hero fullWidth">
+            <h1 class = "center logo">Mom Get The Camera!</h1>
+            <div class = "button-container">
+                <button class = "featured-button center">Watch the latest disaster!</button>
+                <div class="arrow">
+                    <a href="#"></a>
                 </div>
             </div>
         </div>
+    </header>
 
-        <div class="grid-x grid-padding-x">
-            <div class="large-8 medium-8 cell">
-                <h5>Here&rsquo;s your basic grid:</h5>
-                <!-- Grid Example -->
-
-                <div class="grid-x grid-padding-x">
-                    <div class="large-12 cell">
-                        <div class="primary callout">
-                            <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
-                        </div>
-                    </div>
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="large-4 medium-4 cell">
-                <h5>Try one of these buttons:</h5>
-                <p><a href="#" class="button">Simple Button</a><br/>
-                    <a href="#" class="success button">Success Btn</a><br/>
-                    <a href="#" class="alert button">Alert Btn</a><br/>
-                    <a href="#" class="secondary button">Secondary Btn</a></p>
-                <div class="callout">
-                    <h5>So many components, girl!</h5>
-                    <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-                    <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
-                </div>
+    <div class="grid-container fullWidth about-banner">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12 medium-8 medium-offset-2">
+                <h1 class = "center logo alt-color">What is this?</h1>
+                <p class = "about-details">Lorem ipsum dolor amet tumblr hexagon occupy, franzen adaptogen sustainable cornhole hot chicken disrupt try-hard biodiesel neutra. Quinoa tumeric taiyaki DIY before they sold out sriracha twee lumbersexual seitan live-edge. Tote bag gochujang la croix taxidermy iceland cray adaptogen art party kombucha pickled schlitz. Four loko irony semiotics, taxidermy bushwick 90's kinfolk. Live-edge irony vexillologist YOLO, etsy ennui microdosing tbh vape gochujang ugh. Austin activated charcoal venmo tote bag. You probably haven't heard of them 3 wolf moon swag, fanny pack tote bag sartorial raw denim seitan chillwave everyday carry narwhal farm-to-table iPhone VHS.</p>
             </div>
         </div>
     </div>
-</div>
+
+    <div class="grid-container fullWidth featured-video">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12">
+                <h1 class = "center logo alt-color padding-nudge">Watch our Nonsense</h1>
+                <div class="video-slider">
+
+                    <div>
+                        <div class="grid-container">
+                            <div class="grid-x grid-margin-x">
+                                <div class="cell small-12 medium-12 large-8 feat-video">
+                                    <h2 class = "center logo alt-color">Latest Video</h2>
+                                    <div class = "outer">
+                                        <img src="https://unfantasticgamers.com/wp-content/uploads/2019/12/Cant-catch-me-League-of-trash-episode-17.png" alt="">
+                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=X6wGfP5vbeo">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell small-12 medium-12 large-4">
+                                    <div class="grid-x">
+                                        <div class="cell small-12">
+                                            <h2 class = "center logo alt-color desktop-title-fix">Other Recent Vidoes</h2>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video top-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2019/11/League-of-Trash-episode-16-Janna-in-the-wind-city-Thumbnail.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=utZuNHnze_I&t">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video bot-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2019/10/apex-s3-thumbnail.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=cJf3-w0f5pI">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="grid-container">
+                            <div class="grid-x grid-margin-x">
+                                <div class="cell small-12 medium-12 large-8 feat-video">
+                                    <h2 class = "center logo alt-color">Featured Matt Video</h2>
+                                    <div class = "outer">
+                                        <img src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Thumbnail-Ep-1-1.png" alt="">
+                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=GtQZ6XXt69c">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell small-12 medium-12 large-4">
+                                    <div class="grid-x">
+                                        <div class="cell small-12">
+                                            <h2 class = "center logo alt-color desktop-title-fix">Other Matt Videos</h2>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video top-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2019/12/maxresdefault-copy.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=os-yQhewRsE">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video bot-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2017/12/League-of-Trash-Episode-4-Sexy-Nidalee-Skins-Thumbnail-1.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=LG_CBq7oVrE">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="grid-container">
+                            <div class="grid-x grid-margin-x">
+                                <div class="cell small-12 medium-12 large-8 feat-video">
+                                    <h2 class = "center logo alt-color">Featured Josh Video</h2>
+                                    <div class = "outer">
+                                        <img src="https://unfantasticgamers.com/wp-content/uploads/2018/03/Saints-row-lets-play-thumbnail-Josh.png" alt="">
+                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=iA4orV3oP-A">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cell small-12 medium-12 large-4">
+                                    <div class="grid-x">
+                                        <div class="cell small-12">
+                                            <h2 class = "center logo alt-color desktop-title-fix">Other Josh Videos</h2>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video top-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Ep-1-1.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=hAD0tSi1RAA">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cell small-12 medium-6 large-12 small-video bot-vid">
+                                            <div class = "outer">
+                                                <img src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Mass-Effect-3-War-Asset-Guide.jpg" alt="">
+                                                <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=5cxATjBiG-4">
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container fullWidth featured-comments">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12">
+                <h1 class = "center logo alt-color padding-nudge">See what others say!</h1>
+                <p class = "featured-reviews">"bro nice video very sex thank you" <span class = "author">- Rex L </span></p>
+                <p class="featured-reviews">"what mission is this"<span class = "author">- Jessica Komalestewa </span></p>
+                <p class="featured-reviews">"cool"<span class = "author">- Rosendo Rodriguez </span></p>
+                <p class="featured-reviews">"Great video man! Check out my channel if you'd like"<span class = "author">- Jazz </span></p>
+                <p class="featured-reviews">"You guys still have a Youtube?"<span class = "author">- Our Parents </span></p>
+            </div>
+        </div>
+    </div>
 
 
 

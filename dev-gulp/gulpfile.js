@@ -43,6 +43,9 @@ const phpWatchFiles    = root + '**/*.php',
 
 const jsSRC = [
     js + 'foundation.min.js',
+    js + 'jquery.magnific-popup.min.js',
+    js + 'link.min.js',
+    js + 'slick.min.js',
     js + 'what-input.js',
     js + 'app.js',
     js + 'custom-scripts.js'
@@ -54,6 +57,9 @@ const jsSRC = [
 
 const cssSRC = [
     root + 'webfonts/stylesheet.css',
+    root + 'src/css/slick.css',
+    root + 'src/css/slick-theme.css',
+    root + 'src/css/magnific-popup.css',
     root + 'src/css/foundation.min.css',
     root + 'src/css/foundation-icons.css',
     root + 'main.css'
@@ -93,7 +99,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'starter-template.local', //switch this to whatever local generates
+        proxy: 'unfantasticgamers.local', //switch this to whatever local generates
         port: 3000
     });
 
